@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+    vlc-build:
+        build: .
+        image: r1k/vlc-build:v1
+
